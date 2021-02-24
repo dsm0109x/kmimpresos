@@ -9788,9 +9788,8 @@ body .notification strong { border: none; }
 .testimonial-box {
 	background: transparent;
 	border-radius: 6px;
-	padding: 38px;
-	padding-left: 110px;
-	color: #888;
+	padding: 20px;
+	color: #fff;
 	position: relative;
 	margin: 18px 0;
 	box-shadow: none;
@@ -9831,23 +9830,13 @@ body .notification strong { border: none; }
 }
 
 .testimonial:after {
-	position: absolute;
-	top: 47px;
-	left: 42px;
-	content: "\f10d";
-	font-family: "FontAwesome";
-	font-size: 38px;
-	opacity: 0.3;
-	color: #222;
-	background-color: transparent;
-	cursor: default;
 }
 
 .testimonial,
 .testimonial p {
 	font-size: 16px;
-	font-weight: 500;
-	line-height: 30px;
+	font-weight: 300;
+	line-height: 23px;
 }
 
 .testimonial-author {
@@ -11097,6 +11086,10 @@ body .notification strong { border: none; }
 	padding: 0;
 	float: left;
 	line-height: 0;
+}
+.icon-footer{
+    font-size: 2em;
+    margin-left: 20px;
 }
 
 .listing-share .social-icons li a:before,
@@ -17431,8 +17424,11 @@ body .category-box-btn:hover {
 		color: #000000;
 		font-size: 17px;
 		line-height: 22px;
-		background-color: #fff;
+		background-color: #fcfcfc;
 	}
+#wrapper {
+    background-color: #fcfcfc !important;
+}
 
 	body p { font-size: 17px; line-height: 25px; }
 
@@ -17460,6 +17456,19 @@ h1{
         font-family: 'Caveat', cursive;
         font-size: 21px;
 	}
+
+.font-root{
+    color: #000;
+        font-weight: bold;
+        font-family: 'Caveat', cursive;
+        font-size: 3.5em;
+}
+
+.font-aux{
+    color: #000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.5em;
+}
 
 	h1.white, h2.white, h3.white, h4.white, h5.white, h6.white {
 	  color: #fff;
