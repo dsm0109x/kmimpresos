@@ -8951,8 +8951,8 @@ table.basic-table { margin-bottom: 0; }
 	table.basic-table td {
 		border-bottom: 1px solid #ddd;
 		display: block;
-		font-size: 14px;
-		text-align: right;
+		font-size: 16px;
+		text-align: left;
 	}
 
 	table.basic-table td:before {
@@ -18747,4 +18747,12 @@ h3{
 
 .logokm{
     width: 70px !important;
+}
+
+.tabs-nav li a:hover, .tabs-nav li.active a {
+    border-color: #023e8a;
+    background-color: #023e8a;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 17px;
 }
